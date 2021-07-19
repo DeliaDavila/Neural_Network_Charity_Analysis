@@ -3,7 +3,7 @@
 ## Overview of Project
 ### Purpose
 This project was done for Alphabet Soup, a company who funds other organizations. The company is hoping to improve the effect of their funding by determining which organizations are able to use the funding well.
-To complete the project, we will use machine learning and neural networks to analyze historical data from the company about funded companies. The goal of building a machine learning model is to predict whether applicants will be successful if funded by Alphabet Soup.
+To complete the project, we will use deep learning and neural networks to analyze historical data from the company about funded companies. The goal of building a deep learning model is to predict whether applicants will be successful if funded by Alphabet Soup.
 
 ### Background
 Alphabet Soup has historical data from the companies they've funded. The company provided information the form of a CSV that contains informtation about previously funded companies who are asking for additional funding. 
@@ -72,4 +72,9 @@ The Neural Network machine learning model, powered by relu and sigmoid activatio
 The data provided did not have a large number of fields that could be input for the model to review. Additionally, some fields had many blank values, making them not useful for company comparison. Adding more information or adding more complete information might allow the model to make more accurate predictions.
 
 Additionally, adding more information to describe what "success" means might make for a better outcome. In the data, "Is Successful" is the only measure. Providing more outcome material might make for a better ability of the neural network to learn how to calculate success. Some suggestions are project completion rates or duration, number of people affected, number of previous successful campaigns, etc.
+
+Adding more information to the cloud might also be enhanced by changing to a different neural network model. One suggested model to try is Restricted Boltzmann Machines (RBMs).
+RBMs can learn from a probability distribution within data. This model is often used for classification, regression, collaborative filtering, feature learning, and topic modeling. 
+
+
 
