@@ -20,11 +20,11 @@ The first step was to evaluate the dataset provided and determine what fields ar
     * USE_CASE
     * ORGANIZATION
     * STATUS
-    * ASK_AMT
-* Other variables (Not helpful to the model or potentially too noisy)
+* Other variables (Not helpful, incomplete, or too noisy)
     * NAME
     * EIN
     * SPECIAL_CONSIDERATIONS
+    * ASK_AMT
     * INCOME_AMT
 
 ### Compiling, Training, and Evaluating the Model
